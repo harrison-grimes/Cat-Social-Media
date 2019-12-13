@@ -17,7 +17,7 @@ class MyCats extends Component {
         </div>
       );
     } else {
-      return <div>Loading Cats...</div>;
+      return <div className="loading">Loading Cats...</div>;
     }
   }
 }
